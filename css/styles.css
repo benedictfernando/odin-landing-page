@@ -88,7 +88,7 @@ button {
 
 .info {
     text-align: center;
-    height: 60vh;
+    margin: 64px;
 }
 
 .info h1 {
@@ -119,7 +119,27 @@ button {
 
 /* for  quote */
 
+.quote {
+    display: flex;
+    padding: 64px 0;
+    background-color: #e5e7eb;
+}
 
+.quote .thor {
+    margin: auto;
+    width: 60vw;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.thor div {
+    text-align: right;
+    font-weight: bold;
+}
 
 
 

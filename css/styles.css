@@ -86,7 +86,34 @@ button {
 
 /* for information */
 
+.info {
+    text-align: center;
+    height: 60vh;
+}
 
+.info h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    margin: 64px 0;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+}
+
+.card img {
+    border: 5px solid rgb(94, 94, 252);
+    border-radius: 16px;
+}
 
 
 

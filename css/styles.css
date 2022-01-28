@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
 }
@@ -51,6 +50,10 @@ button {
     border: none;
     color: white;
     background-color: #3882f6;
+}
+
+.left-side {
+    flex: 1;
 }
 
 
@@ -145,4 +148,33 @@ button {
 
 /* for call to action */
 
+.action {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 64px;
+}
 
+.action > div {
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    gap: 16px;
+    width: 60vw;
+    padding: 16px 64px;
+    background-color: #3882f6;
+}
+
+.action h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.action p {
+    color: #e5e7eb;
+}
+
+.action button {
+    flex-shrink: 0;
+    border: 1px solid #f9faf8;
+}

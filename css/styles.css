@@ -175,6 +175,5 @@ button {
 }
 
 .action button {
-    flex-shrink: 0;
     border: 1px solid #f9faf8;
 }
